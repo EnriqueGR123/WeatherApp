@@ -1,0 +1,8 @@
+body{
+    background:  url("https://image.freepik.com/vector-gratis/conjunto-iconos-dibujos-animados-clima_24908-4351.jpg" ) no-repeat center/cover ;
+    background-size: 100%;
+
+}
+#search:hover{
+    cursor: pointer;
+}
