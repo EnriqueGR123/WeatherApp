@@ -1,8 +1,27 @@
-body{
-    background:  url("https://image.freepik.com/vector-gratis/conjunto-iconos-dibujos-animados-clima_24908-4351.jpg" ) no-repeat center/cover ;
-    background-size: 100%;
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  font-family: 'Poppins', sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
-#search:hover{
-    cursor: pointer;
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  min-width: 320px;
+  font-family: 'Poppins', sans-serif;
+  background-color: black;
 }
